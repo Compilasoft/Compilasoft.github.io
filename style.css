@@ -1,3 +1,21 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+.introduçao p{
+   text-align: justify;
+   margin: 10px;
+}
+.topico{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 700px, 700px;
+   gap: 7px;
+   margin: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+#subtopico{
+    text-align: center;
+}
+
+
