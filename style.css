@@ -2,7 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 .introduçao p{
    text-align: left;
@@ -11,45 +10,96 @@
 .introduçao img{
   width: 70%;
   float: right;
-
 }
 .introduçao{
-    padding: 20%;
-
+    padding: 10%;
 }
 .cards{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   justify-content: center;
-   gap: 7px;
-   background-color: rgb(233, 233, 233);
-   margin: 40px;
-   padding: 2%;
-   margin-left: 10%;
-   margin-right: 10%;
-  
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0;
+  width: 100%;
+  padding: 16px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit,268px);
+  max-width: 1200px;
+  padding-left: 15%;
+  padding-right: 64px;
+  gap: 32px;
+  display: grid;
 }
-#subtopico img{
-   width: 100%;
-   
+.subtopico{
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #e4e3e4;
+  border-radius: 5px;
+  box-shadow: 0px 6px 8px #0d0d361a;
+  padding: 32px;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
-.icones{
+.subtopico2{
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #e4e3e4;
+  border-radius: 5px;
+  box-shadow: 0px 6px 8px #0d0d361a;
+  padding: 32px;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.subtopico3{
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #e4e3e4;
+  border-radius: 5px;
+  box-shadow: 0px 6px 8px #0d0d361a;
+  padding: 32px;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.subtopico img{
     width: 60px;
     height: 60px;
     margin-left: auto;
-   margin-right: auto;
-   margin-top: 10px;
-    
+   margin-right: auto;   
 }
-#subtopico{
-    text-align: center;
-    padding: 20px;
+.subtopico2 img{
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+ margin-right: auto;
 }
-#subtopico p{
-    margin-top: 10%;
-    text-align: center;
-} 
-
+.subtopico3 img{
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+ margin-right: auto;
+}
+.subtopico p{
+  margin-top: 8%;
+}
+.subtopico2 p{
+  margin-top: 8%;
+}
+.subtopico3 p{
+  margin-top: 8%;
+}
 a {
   color: #fff;
   text-decoration: none;
