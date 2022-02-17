@@ -9,25 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Compilasoft</title>
 </head>
+<<<<<<< HEAD
+=======
+<header>
+    <nav>
+        <a class="logo" href="index.html"><img src="Logo.svg"width="38px" height="42px"> Compilasoft </a>
+        <ul class="nav-list">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a id="contact" href="#contact-form">Contato</a></li>
+        </ul>
+      </nav>
+</header>
+>>>>>>> e2d586545118238645e50028b430b41786a16262
 
 <body>
     <div class="modal">
         <div class="modal-content">
             <img id="exit-modal" src="IMAGENS/x-mark.svg">
-            <h1>Entre em contato</h1>
-            <form action="">
-                <div>
-                    <input type="text" name="nome" placeholder="nome" required>
-                </div>
-                <div>
-                    <input type="email" name="email" placeholder="e-mail" required>
-                </div>
-                <div>
-                    <input type="tel" name="telefone" placeholder="telefone">
-                </div>
-                <div>
-                    <textarea name="mensagem" id="mensagem" placeholder="mensagem"></textarea>
-                </div>
+            <h1>Fale conosco</h1>
+            <form id="contact-form" action="" >
+                <input class="field" type="text" name="nome" placeholder="nome" required>
+                <input class="field" type="email" name="email" placeholder="e-mail" required>
+                <input class="field" type="tel" name="telefone" placeholder="telefone">
+                <textarea class="field" name="mensagem" id="mensagem" placeholder="mensagem"></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>
