@@ -19,7 +19,7 @@
   margin: 0px;
   min-width: 0;
   width: 100%;
-  padding: 16px;
+  padding: 20px;
   justify-content: center;
   grid-template-columns: repeat(auto-fit,268px);
   max-width: 1200px;
@@ -259,4 +259,40 @@ footer{
   font-size: 15px;
   background: #181616;
   text-align: center;
+}
+.serviço{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 200px;
+  gap: 5px;
+  padding: 20px;
+} 
+.item {
+  margin-top: 5%;
+  padding-top: 10%;
+  padding: 10px;
+  text-align: center;
+  
+}
+.item img{
+  width: 66%;
+  height: 85%;
+     
+}
+#texto h2{
+  margin-left: 10%;
+  padding-top: 10%;
+}
+.item button{
+  padding: 0.7em;
+  background-color: #e4e3e4;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 30%;
+}
+.item button:hover{
+  transition: 0.5s;
+  background-color: #e4e3e4;
+  color: rgb(221, 11, 11);
 }
