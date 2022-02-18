@@ -124,10 +124,9 @@ nav {
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #23232e;
-  height: 10vh;
+  height: 90px;
   width: 100%;
 }
-
 
 .nav-list {
   list-style: none;
