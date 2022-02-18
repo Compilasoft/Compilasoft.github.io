@@ -146,6 +146,7 @@ h1{
 }
 
 .modal {
+    z-index: 2000;
     position: fixed;
     padding: 0;
     left: 0;
