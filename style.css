@@ -176,7 +176,7 @@ h1{
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    color: rgb(221, 11, 11);
+    color: #23232e;
 }
 
 .modal-content h1 {
@@ -189,7 +189,7 @@ h1{
 }
 
 #contact-form button {
-  color: rgb(221, 11, 11);
+  color: #23232e;
   width: 40%;
   margin: auto;
   font-size: 20px;
@@ -198,11 +198,13 @@ h1{
   font-weight: bold;
   border: 2px solid rgb(221, 11, 11);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #contact-form button:hover {
   color: rgb(221, 11, 11);
-  background-color: #fff;
+  transform: scale(1.01);
+  background-color: rgb(245, 245, 245);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -212,12 +214,12 @@ h1{
   border-bottom: 2px solid rgb(221, 11, 11);
   padding: 10px;
   font-size: 18px;
-  color: rgb(221, 11, 11);
+  color: #23232e;
   outline: none;
 }
 
 ::placeholder {
-  color: rgb(221, 11, 11);
+  color: #23232e;
   opacity: 0.7; 
 }
 
