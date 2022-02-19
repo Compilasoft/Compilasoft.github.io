@@ -227,7 +227,7 @@ h1{
   border-radius: 5px;
 }
 
-#exit-modal {
+.exit-modal {
   display: flex;
   margin-left: auto;
   width: 18px;
@@ -301,4 +301,8 @@ footer{
   color: rgb(221, 11, 11);
   transform: scale(1.01);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content p {
+  font-size: 18px;
 }
