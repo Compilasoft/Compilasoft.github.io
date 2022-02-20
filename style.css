@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* topico introdução*/
 .introduçao p{
    text-align: left;
    margin: 20px;  
@@ -13,7 +14,8 @@
 }
 .introduçao{
     padding: 10%;
-}
+} 
+/*Cards de introdução*/
 .cards{
   box-sizing: border-box;
   margin: 0px;
@@ -97,6 +99,7 @@
 .subtopico3 p{
   margin-top: 8%;
 }
+/*Fim da introdução*/
 a {
   color: #fff;
   text-decoration: none;
@@ -259,14 +262,14 @@ footer{
   bottom: 0px;
   width: 100%;
   background: rgb(15, 15, 15);
+  height: 50px;
 }
+ span{
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+ }
 
-.bottom .center{
-  padding: 5px;
-  font-size: 15px;
-  background: #181616;
-  text-align: center;
-}
 /*Fim do footer */
 .serviço{
   display: grid;
@@ -417,7 +420,4 @@ ul{
   visibility: visible;
   font-size: 14px;
 }
-
-
-
 /*Fim do Portfolio */

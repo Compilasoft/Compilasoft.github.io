@@ -22,3 +22,10 @@
 # Visão da empresa:
     
 * Trata-se de uma empresa que trabalha com a transparência, melhoria contínua, amizade e inovação. Lugar onde respondemos todos como uma grande equipe. 
+# OBSERVAÇÃO:
+ Trata-se de uma empresa fictícia, apenas um projeto elaborado para curso de ADS com intuito de mostrar os conhecimentos adquiridos na matéria abordada.
+  
+# Componentes:
+ * Alana Cristina Felix da Silva
+ * Edwilson Bezerra Sobrinho Neto
+ * Felipe Pereira Alves da Silva
