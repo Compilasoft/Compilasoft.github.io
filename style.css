@@ -106,7 +106,7 @@ a {
 a:hover {
   opacity: 0.7;
 }
-
+/*Começo do menu */
 .logo {
   font-size: 24px;
   text-transform: uppercase;
@@ -123,6 +123,7 @@ nav {
   background: #23232e;
   height: 90px;
   width: 100%;
+  z-index: 200;
 }
 
 .nav-list {
@@ -144,6 +145,8 @@ nav a:hover{
 h1{
   line-height: 50px;
 }
+
+/* Fim do menu */
 
 .modal {
     z-index: 2000;
@@ -247,9 +250,9 @@ h1{
   opacity: 1;
   box-shadow: 0px 0px 4px #fff;
 }
-
+/*Começo do footer*/
 footer{
-  position:relatives;
+  position:relative;
   bottom: 0px;
   width: 100%;
   background: rgb(15, 15, 15);
@@ -261,6 +264,7 @@ footer{
   background: #181616;
   text-align: center;
 }
+/*Fim do footer */
 .serviço{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -306,3 +310,111 @@ footer{
 .modal-content p {
   font-size: 18px;
 }
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*Começo do Portfolio*/
+.container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3ren 0;
+
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+.card{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(60, 185, 22);
+  background-image: url(dev.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(0.5);
+  color: #181616;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.card-text{
+  width: 40%;
+  letter-spacing: 1px;
+  color: rgb(39, 38, 38);
+}
+
+.card-wrapper{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-wrapper::before{
+  content:'' ;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transition: 0.5 ease-in-out;
+}
+
+.card-wrapper h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p{
+  font-size: 0;
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+  filter: unset;
+}
+
+.card:hover > .card-wrapper::before{
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+  opacity: 1;
+  visibility: visible;
+  font-size: 14px;
+}
+
+
+
+/*Fim do Portfolio */
