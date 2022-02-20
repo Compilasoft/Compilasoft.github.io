@@ -261,14 +261,18 @@ footer{
   position:relative;
   bottom: 0px;
   width: 100%;
-  background: rgb(15, 15, 15);
+  background: #23232e;
   height: 50px;
+  padding-top: 20px;
 }
  span{
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 10px;
+   font-size: 15px;
  }
+.bottom {
+  text-align: center;
+}
 
 /*Fim do footer */
 .serviço{
