@@ -100,12 +100,8 @@
 a {
   color: #fff;
   text-decoration: none;
-  transition: 0.3s;
 }
 
-a:hover {
-  opacity: 0.7;
-}
 /*Começo do menu */
 .logo {
   font-size: 24px;
@@ -136,10 +132,18 @@ nav {
   margin-left: 32px;
 }
 
-nav a:hover{
+.menu-button {
+  padding: 0.7em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.menu-button:hover {
   transition: 0.5s;
   background-color: #e4e3e4;
   color: rgb(221, 11, 11);
+  box-shadow: 0px 0px 4px #fff;
+  border-radius: 5px;
 }
 
 h1{
@@ -247,7 +251,6 @@ h1{
 
 #contact:hover {
   color: rgb(221, 11, 11);
-  opacity: 1;
   box-shadow: 0px 0px 4px #fff;
 }
 /*Começo do footer*/
